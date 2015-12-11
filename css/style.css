@@ -8023,6 +8023,12 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   outline: none;
 }
+
+.fh5co-feature
+{
+      border: 1px solid #EEE;
+}
+
 .fh5co-feature .fh5co-feature-icon, .fh5co-figure .fh5co-feature-icon {
   width: 80px;
   height: 80px;
