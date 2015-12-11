@@ -1416,6 +1416,11 @@ textarea {
   line-height: inherit;
 }
 
+.bold {
+    color: #333 !important;
+    font-weight: bold;
+}
+
 a {
   color: #ffbf66;
   text-decoration: none;
@@ -7578,8 +7583,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-bottom: 4em;
   height: calc(100vh - 114px);
-  /*height: 90vh;*/
-  /*min-height: 500px;*/
+  min-height: 563px;
   z-index: 10;
   background: #ffbf66;
   overflow: hidden;
@@ -7620,7 +7624,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-hero .fh5co-intro .fh5co-text {
-  bottom: -10em;
+  bottom: -7em;
 }
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro .fh5co-text {
