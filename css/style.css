@@ -7582,7 +7582,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   position: relative;
   padding-bottom: 4em;
-  height: calc(100vh - 114px);
+  height: 100vh;
   min-height: 563px;
   z-index: 10;
   background: #ffbf66;
@@ -7624,7 +7624,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-hero .fh5co-intro .fh5co-text {
-  bottom: -7em;
+  bottom: -9.5em;
 }
 @media screen and (max-width: 992px) {
   #fh5co-hero .fh5co-intro .fh5co-text {
@@ -7816,7 +7816,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #f2f2f2;
 }
 
-#fh5co-features,
+#fh5co-features
+{
+    padding: 2em 0;
+}
+
 #fh5co-features-2,
 #fh5co-features-3,
 #fh5co-products,
